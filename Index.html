@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <svg class="bg-logo">
+            <use xlink:href="sprite.svg#header-bg"></use>
+        </svg>
+        <div class="container">
+            <div class="header-inner">
+                <a href="#!" class="logo_link">
+                    <img loading="lazy" decoding="async" src="/pic/store-front-logo 1.png" alt="logo of the web-site">
+                </a>
+                <div class="headerInfo-container">
+                    <nav class="nav">
+                        <a href="#!" class="nav-items" role="button">Фотосессии</a>
+                        <a href="#!" class="nav-items" role="button">Соц.сети</a>
+                        <div class="dropdown">
+                            <a href="#!" class="nav-items dropdown__toggle" aria-haspopup="true" aria-expanded="false">
+                                Сервисы
+                            </a>
+                            <ul class="sub-menu">
+                                <li><a href="#!" class="sub-item">NanaBanana</a></li>
+                                <li><a href="#!" class="sub-item">Google Imagine</a></li>
+                                <li><a href="#!" class="sub-item">Flux 2.5 PRO</a></li>
+                                <li><a href="#!" class="sub-item">Higsfield soul</a></li>
+                                <li><a href="#!" class="sub-item">Seedream 4K</a></li>
+                                <li><a href="#!" class="sub-item">Runaway</a></li>
+                            </ul>
+                        </div>
+                        <a href="#!" class="nav-items">Клуб AI</a>
+                    </nav>
+                    <div class="swithcher-container">
+                        <!-- dark background -->
+                        <a href="#!" class="icon_bg" role="button" data-theme="dark" onclick="changeTheme(event)">
+                            <svg class="icon">
+                                <use xlink:href="sprite.svg#luna"></use>
+                            </svg>
+                        </a>
+                        <!-- white background phone -->
+                        <a href="#!" class="icon_bg" role="button" data-theme="light" onclick="changeTheme(event)">
+                            <img loading="lazy" decoding="async" src="/pic/Светлая иконка.svg" alt="icon of the sun">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+
+            <div class="tampalte">
+                <h2 class="h2 h2-title">Выбери шаблон</h2>
+                <div class="carousel-wrapper">
+                    <a href="#!" class="carousel-btn left" role="button">
+                        <svg class="carousel-iconLeft carousel-svg">
+                            <use xlink:href="sprite.svg#carousel-left"></use>
+                        </svg>
+                    </a>
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <img loading="lazy" decoding="async" src="/pic/carusel 1.png"
+                                    alt="background of the picture">
+                            </div>
+                            <div class="carousel-slide">
+                                <img loading="lazy" decoding="async" src="/pic/carusel2.png"
+                                    alt="background of the picture">
+                            </div>
+                            <div class="carousel-slide">
+                                <img loading="lazy" decoding="async" src="/pic/carusel 1.png"
+                                    alt="background of the picture">
+                            </div>
+                            <div class="carousel-slide">
+                                <img loading="lazy" decoding="async" src="/pic/carusel2.png"
+                                    alt="background of the picture">
+                            </div>
+                            <div class="carousel-slide">
+                                <img loading="lazy" decoding="async" src="/pic/carusel 1.png"
+                                    alt="background of the picture">
+                            </div>
+                            <div class="carousel-slide">
+                                <img loading="lazy" decoding="async" src="/pic/carusel2.png"
+                                    alt="background of the picture">
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#!" class="carousel-btn right" role="button">
+                        <svg class="carousel-iconLeft carousel-svg">
+                            <use xlink:href="sprite.svg#carousel-right"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="goods">
+                <h2 class="h2 h2-title">Товары</h2>
+                <div class="goods-grid">
+                    <div class="goods-items new">
+                        <div class="img-wraper">
+                            <img loading="lazy" decoding="async" src="/pic/image 1.png" alt="hollywood style pictures">
+                            <span class="badge">NEW</span>
+                        </div>
+                        <h3 class="fo-3">
+                            Hollywood Vision
+                        </h3>
+                        <p class="content">
+                            Кинематографичный стиль с эффектом киностудии и мягким светом
+                        </p>
+                        <div class="pay-content">
+                            <span class="price">3&nbsp900&nbsp&#8381;</span>
+                            <a href="#!" class="btn_pay">Купить</a>
+                        </div>
+                    </div>
+                    <div class="goods-items new">
+                        <div class="img-wraper">
+                            <img loading="lazy" decoding="async" src="/pic/image 2.png" alt="Cyber style pictures">
+                            <span class="badge">NEW</span>
+                        </div>
+                        <h3 class="fo-3">
+                            Cyber Angel
+                        </h3>
+                        <p class="content">
+                            Футуристические образы с сияющими акцентами и digital-эффектами
+                        </p>
+
+                        <div class="pay-content">
+                            <span class="price">4&nbsp500&nbsp&#8381;</span>
+                            <a href="#!" class="btn_pay">Купить</a>
+                        </div>
+                    </div>
+                    <div class="goods-items new">
+                        <div class="img-wraper">
+                            <img loading="lazy" decoding="async" src="/pic/image 3.png" alt="Dark Royal style pictures">
+                            <span class="badge">NEW</span>
+                        </div>
+                        <h3 class="fo-3">
+                            Dark Royal
+                        </h3>
+                        <p class="content">
+                            Королевская эстетика в готическом стиле и глубокой светотенью
+                        </p>
+
+                        <div class="pay-content">
+                            <span class="price">4&nbsp900&nbsp&#8381;</span>
+                            <a href="#!" class="btn_pay">Купить</a>
+                        </div>
+                    </div>
+                    <div class="goods-items new">
+                        <div class="img-wraper">
+                            <img loading="lazy" decoding="async" src="/pic/image 4.png" alt="Neon Tokyo style pictures">
+                            <span class="badge">NEW</span>
+                        </div>
+                        <h3 class="fo-3">
+                            Neon Tokyo
+                        </h3>
+                        <p class="content">
+                            Город будущего, неоновые улицы и динамичные кадры движения
+                        </p>
+
+                        <div class="pay-content">
+                            <span class="price">3&nbsp700&nbsp&#8381;</span>
+                            <a href="#!" class="btn_pay">Купить</a>
+                        </div>
+                    </div>
+                    <div class="goods-items new">
+                        <div class="img-wraper">
+                            <img loading="lazy" decoding="async" src="/pic/image 5.png"
+                                alt="Vogue Portrait style pictures">
+                            <span class="badge">NEW</span>
+                        </div>
+                        <h3 class="fo-3">
+                            Vogue Portrait
+                        </h3>
+                        <p class="content">
+                            Минимализм, чистый фон, портрет уровня журнала Vogue
+                        </p>
+
+                        <div class="pay-content">
+                            <span class="price">2&nbsp900&nbsp&#8381;</span>
+                            <a href="#!" class="btn_pay">Купить</a>
+                        </div>
+                    </div>
+                    <div class="goods-items new">
+                        <div class="img-wraper">
+                            <img loading="lazy" decoding="async" src="/pic/image 6.png"
+                                alt="Mystic Forest style pictures">
+                            <span class="badge">NEW</span>
+                        </div>
+                        <h3 class="fo-3">
+                            Mystic Forest
+                        </h3>
+                        <p class="content">
+                            Эфирные образы в туманном лесу с фантазийной атмосферой
+                        </p>
+
+                        <div class="pay-content">
+                            <span class="price">4&nbsp200&nbsp&#8381;</span>
+                            <a href="#!" class="btn_pay">Купить</a>
+                        </div>
+                    </div>
+                    <div class="goods-items new">
+                        <div class="img-wraper">
+                            <img loading="lazy" decoding="async" src="/pic/image 7.png"
+                                alt="Mystic Forest style pictures">
+                            <span class="badge">NEW</span>
+                        </div>
+                        <h3 class="fo-3">
+                            Millionaire Lifestyle
+                        </h3>
+                        <p class="content">
+                            Роскошные интерьеры, дорогие аксессуары и эстетика успеха
+                        </p>
+
+                        <div class="pay-content">
+                            <span class="price">5&nbsp500&nbsp&#8381;</span>
+                            <a href="#!" class="btn_pay">Купить</a>
+                        </div>
+                    </div>
+                    <div class="goods-items new">
+                        <div class="img-wraper">
+                            <img loading="lazy" decoding="async" src="/pic/image 8.png"
+                                alt="AI Supermodel style pictures">
+                            <span class="badge">NEW</span>
+                        </div>
+                        <h3 class="fo-3">
+                            AI Supermodel
+                        </h3>
+                        <p class="content">
+                            Точные fashion-позы, студийный свет, обложечная подача
+                        </p>
+
+                        <div class="pay-content">
+                            <span class="price">3&nbsp300&nbsp&#8381;</span>
+                            <a href="#!" class="btn_pay" role="button">Купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="reviews">
+                <h2 class="h2 h2-title">Отзывы участников клуба</h2>
+                <div class="review-carousel-wrapper">
+                    <a class="review-arrow left" aria-label="Назад" role="button">‹</a>
+                    <div class="review-carousel">
+                        <div class="review-track">
+                            <!-- Карточка 1 -->
+                            <div class="review-card">
+                                <div class="user-inf">
+                                    <img loading="lazy" decoding="async" class="review-avatar">
+                                    <h4 class="review-name">Иван Сусанин</h4>
+                                </div>
+                                <p class="review-text">Я сэкономил кучу времени и получил 30 готовых образов за 5 минут.
+                                    Раньше такие съемки занимали неделю и стоили как отпуск.</p>
+                                <span class="review-date">23.05.2025</span>
+                            </div>
+                            <!-- Карточка 2 -->
+                            <div class="review-card">
+                                <div class="user-inf">
+                                    <img loading="lazy" decoding="async" class="review-avatar">
+                                    <h4 class="review-name">Александра Кирова</h4>
+                                </div>
+                                <p class="review-text">Я всегда стеснялась фотографироваться, но ИИ убрал все комплексы.
+                                    Осталось только внутреннее “вау” от себя новой.</p>
+                                <span class="review-date">23.05.2025</span>
+                            </div>
+                            <!-- Карточка 3 -->
+                            <div class="review-card">
+                                <div class="user-inf">
+                                    <img loading="lazy" decoding="async" class="review-avatar">
+                                    <h4 class="review-name">Анита Русова</h4>
+                                </div>
+                                <p class="review-text">Каждый образ — как отдельная вселенная. Уже использую.</p>
+                                <span class="review-date">23.05.2025</span>
+                            </div>
+                            <!-- Карточка 4 -->
+                            <div class="review-card">
+                                <div class="user-inf">
+                                    <img loading="lazy" decoding="async" class="review-avatar">
+                                    <h4 class="review-name">Олег Терехов</h4>
+                                </div>
+                                <p class="review-text">Моя аудитория в <span class="tooltip">Instagram*
+                                        <span class="tooltip-text">
+                                            Instagram (запрещён в России, принадлежит Meta)
+                                        </span>
+                                    </span> в шоке
+                                    <br>— все думают, что я был в Дубае на фотосессии. А это всё нейросеть!
+                                </p>
+                                <span class="review-date">07.08.2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="review-arrow right" aria-label="Вперёд" role="button">›</a>
+                </div>
+            </section>
+        </div>
+        <div class="container-description">
+            <div class="container">
+                <section class="description">
+                    <h2 class="h2 photoset-2">
+                        Нейрофотосессии нового поколения: создайте <br>
+                        уникальный образ без студии и
+                        фотографа
+                    </h2>
+                    <p class="description-text">
+                        Нейрофотосессия — это инновационный способ получить профессиональные фотографии в любом стиле:
+                        от
+                        кинематографичных портретов до футуристических fashion- <br>
+                        образов. С помощью искусственного интеллекта вы можете создать десятки вариантов внешности,
+                        локаций
+                        и атмосфер, не выходя из дома. Такие
+                        изображения подходят <br>
+                        для социальный сетей, личного бренда, рекламы и визуального позиционирования.
+                        Используя нейросети, вы экономите время, получаете мгновенный результат и <br> выделяетесь на
+                        фоне
+                        стандартного контента.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <a href="#!" class="logo_link">
+                    <img loading="lazy" decoding="async" src="/pic/store-front-logo 1.png" alt="logo of the web-site">
+                </a>
+                <span class="footer-span">© 2025 AI КЛУБ. Все права защищены</span>
+            </div>
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
