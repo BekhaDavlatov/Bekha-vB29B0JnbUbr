@@ -601,7 +601,6 @@ a {
 
 }
 
-
 /* footer */
 
 .footer {
@@ -629,8 +628,6 @@ a {
 /* adaptation of the site */
 
 /* add variables */
-
-
 :root {
     --gap-xs: 8px;
     --gap-s: 15px;
